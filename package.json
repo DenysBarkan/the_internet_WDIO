@@ -1,0 +1,29 @@
+{
+  "name": "the-internet-practice",
+  "version": "1.0.0",
+  "description": "Provides examples of how to use the Webdriver.io api. ",
+  "main": "index.js",
+  "scripts": {
+    "selenium:install": "export NODE_TLS_REJECT_UNAUTHORIZED=0 && selenium-standalone install",
+    "test": "export NODE_TLS_REJECT_UNAUTHORIZED=0 && ./node_modules/.bin/wdio wdio.conf.js",
+    "selenium:start": "export NODE_TLS_REJECT_UNAUTHORIZED=0 && selenium-standalone start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai-as-promised": "^7.1.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-export-default-from": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/register": "^7.0.0",
+    "chai": "^4.2.0",
+    "wdio-mocha-framework": "^0.6.4",
+    "wdio-selenium-standalone-service": "0.0.12",
+    "wdio-spec-reporter": "^0.1.5",
+    "webdriverio": "^4.14.2"
+  }
+}
