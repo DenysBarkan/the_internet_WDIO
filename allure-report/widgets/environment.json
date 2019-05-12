@@ -1,7 +1,0 @@
-[ {
-  "values" : [ "{\"maxInstances\":5,\"browserName\":\"chrome\"}" ],
-  "name" : "capabilities"
-}, {
-  "values" : [ "[\"/Users/ch/Documents/node/internet/test/specs/dynamicControls.spec.js\"]" ],
-  "name" : "spec files"
-} ]
