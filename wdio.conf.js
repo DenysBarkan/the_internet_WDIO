@@ -10,7 +10,7 @@ exports.config = {
     // directory is where your package.json resides, so `wdio` will be called from there.
     //
     specs: [
-        './test/specs/**/*.js'
+        './test/specs/**/*.spec.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -32,7 +32,7 @@ exports.config = {
     // and 30 processes will get spawned. The property handles how many capabilities
     // from the same test should run tests.
     //
-    maxInstances: 5,
+    maxInstances: 10,
     //
     // If you have trouble getting all important capabilities together, check out the
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
@@ -44,15 +44,7 @@ exports.config = {
         // 5 instances get started at a time.
         maxInstances: 5,
         //
-        browserName: 'chrome',
-        acceptSslCerts: true, 
-        chromeOptions: {
-            "useAutomationExtension":false,
-            "args": [
-               //'--disable-gpu', 
-               "--start-fullscreen"
-            ],       
-            }    
+        browserName: 'chrome'
     }],
     //
     // ===================
@@ -63,7 +55,7 @@ exports.config = {
     // By default WebdriverIO commands are executed in a synchronous way using
     // the wdio-sync package. If you still want to run your tests in an async way
     // e.g. using promises you can set the sync option to false.
-    sync: false,
+    sync: true,
     //
     // Level of logging verbosity: silent | verbose | command | data | result | error
     logLevel: 'verbose',
@@ -85,7 +77,7 @@ exports.config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: 'http://the-internet.herokuapp.com/',
+    baseUrl: 'https://the-internet.herokuapp.com',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,
@@ -119,9 +111,9 @@ exports.config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    services: ['selenium-standalone'],
+    services: ['selenium-standalone', 'screenshots-cleanup'],
     seleniumInstallArgs: {
-        version : "3.9.1",
+        version : "3.4.0",
         baseURL : "https://selenium-release.storage.googleapis.com",
         drivers : {
           chrome : {
@@ -132,7 +124,7 @@ exports.config = {
         }
       },
       seleniumArgs: {
-        version : "3.9.1",
+        version : "3.4.0",
         drivers : {
           chrome : {
             version : "2.44",
@@ -140,6 +132,11 @@ exports.config = {
           }
         }
       },
+    // clean screenshots
+    cleanScreenshotsFolder: {
+        folder: './errorShots',
+        pattern: '/**/ERROR_*'
+    },
     //
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
@@ -152,15 +149,24 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: http://webdriver.io/guide/reporters/dot.html
-    reporters: ['spec'],
+    reporters: ['dot','spec', 'allure'],
+    reporterOptions: {
+      // outputDir: 'mochaAwesome'
+      allure: {
+          outputDir: 'allure-results'
+      }
+    },
     
     //
     // Options to be passed to Mocha.
     // See the full list at http://mochajs.org/
     mochaOpts: {
         ui: 'bdd',
-        timeout: 30000,
-        compilers: ['js:@babel/register'],
+        timeout: 30000, // time per it(). Adjust to 9999999 when using debug
+        retries: 1,
+        compilers: [
+            'js:babel-register'
+        ]
     },
     //
     // =====
@@ -193,10 +199,13 @@ exports.config = {
      * @param {Array.<String>} specs List of spec file paths that are to be run
      */
     before: function (capabilities, specs) {
+        require('babel-register')({
+            presets: ['es2015']
+        });
         const chai = require('chai');
-        const chaiAsPromised = require('chai-as-promised');
-        chai.use(chaiAsPromised)
-        global.expect = chai.expect;
+        const chaiWebdriver = require('chai-webdriverio').default;
+        chai.use(chaiWebdriver(browser));
+        expect = chai.expect;
         chai.Should();
     },
     /**
@@ -261,6 +270,7 @@ exports.config = {
      * @param {Array.<String>} specs List of spec file paths that ran
      */
     // after: function (result, capabilities, specs) {
+
     // },
     /**
      * Gets executed right after terminating the webdriver session.
@@ -276,6 +286,21 @@ exports.config = {
      * @param {Object} config wdio configuration object
      * @param {Array.<Object>} capabilities list of capabilities details
      */
-    // onComplete: function(exitCode, config, capabilities) {
-    // }
-}
+    onComplete: function(exitCode, config, capabilities) {
+      var allure = require('allure-commandline');
+ 
+      // returns ChildProcess instance
+      allure(['generate', '--clean','allure-results']);
+      
+      // generation.on('exit', function(exitCode) {
+      //     console.log('Generation is finished with code:', exitCode);
+      // });
+
+      allure(['serve', 'allure-results']);
+
+      // serve.on('exit', function(exitCode) {
+      //   console.log('Served:', exitCode)
+      // });
+    }
+
+  }

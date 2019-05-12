@@ -1,27 +1,33 @@
 
-export default class BasePage {
-    constructor() {
-        this.title = 'h1*=Welcome';
-        this.subTitle = 'h2*=Available';
+export default class basePage {
+
+    constructor(){
+        this.baseH1 = 'h1';
+        this.baseH2 = 'h2';
+        this.links = '//*[@id="content"]/ul/li';
     }
 
-    async verifyTitleText() {
-        await $(this.title).getText().should.eventually.equal('Welcome to the-internet')
-        await $(this.subTitle).getText().should.eventually.equal('Available Examples')
+    get baseHeader1(){
+        return browser.$(this.baseH1);
     }
 
-    async verifyNumberOfLinks() {
-        await $('ul').$$('li').should.eventually.have.lengthOf(39)
+    
+
+    get baseHeader2(){
+        return browser.$(this.baseH2);
     }
 
-    // Navigation functions
-    async loadSite() {
-        await browser.url('/')
-        await browser.waitForText('body')
+    get baseLinks(){
+        return browser.$$(this.links).length;
     }
 
-    async loadBrokenImagesPage() {
-        await browser.url('/broken_images')
-        await browser.waitForText('h3=Broken Images')
+
+    verifyUrl(url) {
+        $('body').waitForVisible();
+        const getUrl = browser.getUrl();
+        return getUrl.should.include(url);
     }
+
+
+
 }
