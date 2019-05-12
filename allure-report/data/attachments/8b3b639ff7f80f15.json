@@ -1,0 +1,4 @@
+{
+    "using": "xpath",
+    "value": "//form[@id='checkboxes']/input"
+}

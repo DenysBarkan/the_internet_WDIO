@@ -1,0 +1,178 @@
+{
+  "uid" : "cb92d0ccf87d706a",
+  "name" : "\"before all\" hook",
+  "fullName" : "Given: File Download test on File Download Page.\"before all\" hook",
+  "historyId" : "5d8bb2fc85171059ba11746ac12ce7fd",
+  "time" : {
+    "start" : 1557687637779,
+    "stop" : 1557687638917,
+    "duration" : 1138
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/f62b1c7e-3308-476d-8c57-086bdd0e16c8/url",
+      "time" : {
+        "start" : 1557687637787,
+        "stop" : 1557687638748,
+        "duration" : 961
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f9e53f8ce1a940de",
+        "name" : "Request",
+        "source" : "f9e53f8ce1a940de.json",
+        "type" : "application/json",
+        "size" : 60
+      }, {
+        "uid" : "d8338672e7c7776e",
+        "name" : "Response",
+        "source" : "d8338672e7c7776e.json",
+        "type" : "application/json",
+        "size" : 196
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/f62b1c7e-3308-476d-8c57-086bdd0e16c8/element",
+      "time" : {
+        "start" : 1557687638755,
+        "stop" : 1557687638797,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "928e9f5f4b3942f9",
+        "name" : "Request",
+        "source" : "928e9f5f4b3942f9.json",
+        "type" : "application/json",
+        "size" : 52
+      }, {
+        "uid" : "bf3a6f2fdcaa6e5",
+        "name" : "Response",
+        "source" : "bf3a6f2fdcaa6e5.json",
+        "type" : "application/json",
+        "size" : 222
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/f62b1c7e-3308-476d-8c57-086bdd0e16c8/elements",
+      "time" : {
+        "start" : 1557687638807,
+        "stop" : 1557687638858,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "57d1c982ccab298f",
+        "name" : "Request",
+        "source" : "57d1c982ccab298f.json",
+        "type" : "application/json",
+        "size" : 52
+      }, {
+        "uid" : "3e85438e93abce5c",
+        "name" : "Response",
+        "source" : "3e85438e93abce5c.json",
+        "type" : "application/json",
+        "size" : 246
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/f62b1c7e-3308-476d-8c57-086bdd0e16c8/element/0/displayed",
+      "time" : {
+        "start" : 1557687638860,
+        "stop" : 1557687638892,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1886553eb5f7eaf4",
+        "name" : "Response",
+        "source" : "1886553eb5f7eaf4.json",
+        "type" : "application/json",
+        "size" : 195
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/f62b1c7e-3308-476d-8c57-086bdd0e16c8/url",
+      "time" : {
+        "start" : 1557687638896,
+        "stop" : 1557687638912,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fe96d77c75837345",
+        "name" : "Response",
+        "source" : "fe96d77c75837345.json",
+        "type" : "application/json",
+        "size" : 237
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Given: File Download test on File Download Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Given: File Download test on File Download Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook"
+  }, {
+    "name" : "package",
+    "value" : "Given: File Download test on File Download Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cb92d0ccf87d706a.json",
+  "parameterValues" : [ ]
+}

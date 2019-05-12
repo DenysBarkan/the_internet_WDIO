@@ -1,0 +1,259 @@
+{
+  "uid" : "711b194b03bb55d8",
+  "name" : "When I click second checkbox, and uncheck the first, Then I verify its checked and the other is not.",
+  "fullName" : "Given: as a user, I should be able to check and uncheck the check boxes:.When I click second checkbox, and uncheck the first, Then I verify its checked and the other is not.",
+  "historyId" : "3841c2e767fd4ecdf133e8c2af2c529b",
+  "time" : {
+    "start" : 1557687639666,
+    "stop" : 1557687639961,
+    "duration" : 295
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements",
+      "time" : {
+        "start" : 1557687639666,
+        "stop" : 1557687639680,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c960b337b8e0692f",
+        "name" : "Request",
+        "source" : "c960b337b8e0692f.json",
+        "type" : "application/json",
+        "size" : 71
+      }, {
+        "uid" : "82099099aee78af3",
+        "name" : "Response",
+        "source" : "82099099aee78af3.json",
+        "type" : "application/json",
+        "size" : 294
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/2/click",
+      "time" : {
+        "start" : 1557687639694,
+        "stop" : 1557687639747,
+        "duration" : 53
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9609f3a2ce32ad18",
+        "name" : "Response",
+        "source" : "9609f3a2ce32ad18.json",
+        "type" : "application/json",
+        "size" : 195
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements",
+      "time" : {
+        "start" : 1557687639749,
+        "stop" : 1557687639770,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2b1d37f0d12e906",
+        "name" : "Request",
+        "source" : "2b1d37f0d12e906.json",
+        "type" : "application/json",
+        "size" : 71
+      }, {
+        "uid" : "7e1aa363556b35dc",
+        "name" : "Response",
+        "source" : "7e1aa363556b35dc.json",
+        "type" : "application/json",
+        "size" : 294
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/1/click",
+      "time" : {
+        "start" : 1557687639776,
+        "stop" : 1557687639819,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "23cf0dbdb115f19f",
+        "name" : "Response",
+        "source" : "23cf0dbdb115f19f.json",
+        "type" : "application/json",
+        "size" : 196
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements",
+      "time" : {
+        "start" : 1557687639822,
+        "stop" : 1557687639841,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a4bdf8f415757610",
+        "name" : "Request",
+        "source" : "a4bdf8f415757610.json",
+        "type" : "application/json",
+        "size" : 71
+      }, {
+        "uid" : "f84fd4749d01a2c9",
+        "name" : "Response",
+        "source" : "f84fd4749d01a2c9.json",
+        "type" : "application/json",
+        "size" : 294
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/1/selected",
+      "time" : {
+        "start" : 1557687639844,
+        "stop" : 1557687639895,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "54cc3548eb590794",
+        "name" : "Response",
+        "source" : "54cc3548eb590794.json",
+        "type" : "application/json",
+        "size" : 197
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements",
+      "time" : {
+        "start" : 1557687639903,
+        "stop" : 1557687639932,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2b9c21c164afe842",
+        "name" : "Request",
+        "source" : "2b9c21c164afe842.json",
+        "type" : "application/json",
+        "size" : 71
+      }, {
+        "uid" : "7632e1ea91fa19c5",
+        "name" : "Response",
+        "source" : "7632e1ea91fa19c5.json",
+        "type" : "application/json",
+        "size" : 294
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/2/selected",
+      "time" : {
+        "start" : 1557687639938,
+        "stop" : 1557687639961,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "78f3c7118386b015",
+        "name" : "Response",
+        "source" : "78f3c7118386b015.json",
+        "type" : "application/json",
+        "size" : 196
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 12,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Given: as a user, I should be able to check and uncheck the check boxes:"
+  }, {
+    "name" : "testClass",
+    "value" : "Given: as a user, I should be able to check and uncheck the check boxes:"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I click second checkbox, and uncheck the first, Then I verify its checked and the other is not."
+  }, {
+    "name" : "package",
+    "value" : "Given: as a user, I should be able to check and uncheck the check boxes:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "711b194b03bb55d8.json",
+  "parameterValues" : [ "chrome" ]
+}

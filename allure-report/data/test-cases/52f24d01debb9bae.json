@@ -1,0 +1,94 @@
+{
+  "uid" : "52f24d01debb9bae",
+  "name" : "Then validate sub header shows",
+  "fullName" : "Smoke Test: Given as a user, I want to ensure the base page loads..Then validate sub header shows",
+  "historyId" : "df003d2b1d35513b29142963230f0332",
+  "time" : {
+    "start" : 1557687646851,
+    "stop" : 1557687646895,
+    "duration" : 44
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/a2dab8b1-25e2-4ba7-a69f-31b740b237c8/element",
+      "time" : {
+        "start" : 1557687646854,
+        "stop" : 1557687646876,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "22efbdeb252a7528",
+        "name" : "Request",
+        "source" : "22efbdeb252a7528.json",
+        "type" : "application/json",
+        "size" : 50
+      }, {
+        "uid" : "3bc29f3f8507d22c",
+        "name" : "Response",
+        "source" : "3bc29f3f8507d22c.json",
+        "type" : "application/json",
+        "size" : 222
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "Smoke Test: Given as a user, I want to ensure the base page loads."
+  }, {
+    "name" : "testClass",
+    "value" : "Smoke Test: Given as a user, I want to ensure the base page loads."
+  }, {
+    "name" : "testMethod",
+    "value" : "Then validate sub header shows"
+  }, {
+    "name" : "package",
+    "value" : "Smoke Test: Given as a user, I want to ensure the base page loads."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "52f24d01debb9bae.json",
+  "parameterValues" : [ "chrome" ]
+}

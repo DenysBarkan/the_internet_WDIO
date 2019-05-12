@@ -1,0 +1,137 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1557687645942' stop='1557687646947'>
+    <name>Smoke Test: Given as a user, I want to ensure the base page loads.</name>
+    <title>Smoke Test: Given as a user, I want to ensure the base page loads.</title>
+    <test-cases>
+        <test-case start='1557687645943' status='passed' stop='1557687646828'>
+            <name>"before all" hook</name>
+            <title>"before all" hook</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1557687645951' status='passed' stop='1557687646737'>
+                    <name>POST /wd/hub/session/a2dab8b1-25e2-4ba7-a69f-31b740b237c8/url</name>
+                    <title>POST /wd/hub/session/a2dab8b1-25e2-4ba7-a69f-31b740b237c8/url</title>
+                    <attachments>
+                        <attachment title='Request' source='43effb25-ef6b-41f8-bb6b-6a0526d307c6-attachment.json' type='application/json' size='52'/>
+                        <attachment title='Response' source='a39deeeb-08d8-4e4d-b793-12df61c5cf67-attachment.json' type='application/json' size='195'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557687646745' status='passed' stop='1557687646768'>
+                    <name>POST /wd/hub/session/a2dab8b1-25e2-4ba7-a69f-31b740b237c8/element</name>
+                    <title>POST /wd/hub/session/a2dab8b1-25e2-4ba7-a69f-31b740b237c8/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1a667094-4d27-404e-be00-57d77dd951eb-attachment.json' type='application/json' size='52'/>
+                        <attachment title='Response' source='355811d9-1abd-4507-9be3-97a8fb8c65f6-attachment.json' type='application/json' size='221'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557687646775' status='passed' stop='1557687646797'>
+                    <name>POST /wd/hub/session/a2dab8b1-25e2-4ba7-a69f-31b740b237c8/elements</name>
+                    <title>POST /wd/hub/session/a2dab8b1-25e2-4ba7-a69f-31b740b237c8/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='04c8ef2a-0b95-4397-877d-d21e60111fea-attachment.json' type='application/json' size='52'/>
+                        <attachment title='Response' source='5e7bdfb8-b87e-4815-8397-184f709727fa-attachment.json' type='application/json' size='246'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557687646798' status='passed' stop='1557687646814'>
+                    <name>GET /wd/hub/session/a2dab8b1-25e2-4ba7-a69f-31b740b237c8/element/0/displayed</name>
+                    <title>GET /wd/hub/session/a2dab8b1-25e2-4ba7-a69f-31b740b237c8/element/0/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='3e924ea3-dec7-4d1f-b72d-85e308e768f4-attachment.json' type='application/json' size='196'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557687646817' status='passed' stop='1557687646826'>
+                    <name>GET /wd/hub/session/a2dab8b1-25e2-4ba7-a69f-31b740b237c8/url</name>
+                    <title>GET /wd/hub/session/a2dab8b1-25e2-4ba7-a69f-31b740b237c8/url</title>
+                    <attachments>
+                        <attachment title='Response' source='053804d7-895f-4348-bd6b-678701062089-attachment.json' type='application/json' size='228'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1557687646829' status='passed' stop='1557687646851'>
+            <name>Then validate header shows</name>
+            <title>Then validate header shows</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ch/Documents/node/internet/test/specs/smokeTest/smoke.basePage.spec.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1557687646832' status='passed' stop='1557687646849'>
+                    <name>POST /wd/hub/session/a2dab8b1-25e2-4ba7-a69f-31b740b237c8/element</name>
+                    <title>POST /wd/hub/session/a2dab8b1-25e2-4ba7-a69f-31b740b237c8/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ff1dbf56-4234-4251-91c7-4c683db5feb4-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='4b0c4557-2f16-4100-b8f4-0d13dc7ba45b-attachment.json' type='application/json' size='222'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1557687646851' status='passed' stop='1557687646895'>
+            <name>Then validate sub header shows</name>
+            <title>Then validate sub header shows</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ch/Documents/node/internet/test/specs/smokeTest/smoke.basePage.spec.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1557687646854' status='passed' stop='1557687646876'>
+                    <name>POST /wd/hub/session/a2dab8b1-25e2-4ba7-a69f-31b740b237c8/element</name>
+                    <title>POST /wd/hub/session/a2dab8b1-25e2-4ba7-a69f-31b740b237c8/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f6594023-bdea-4b64-9827-a1aa25bdde41-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='70ddc75c-6a0f-472b-9d98-39979b6184ff-attachment.json' type='application/json' size='222'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1557687646895' status='passed' stop='1557687646947'>
+            <name>Then validate all links are displayed</name>
+            <title>Then validate all links are displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ch/Documents/node/internet/test/specs/smokeTest/smoke.basePage.spec.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1557687646895' status='passed' stop='1557687646910'>
+                    <name>POST /wd/hub/session/a2dab8b1-25e2-4ba7-a69f-31b740b237c8/elements</name>
+                    <title>POST /wd/hub/session/a2dab8b1-25e2-4ba7-a69f-31b740b237c8/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='ad18f921-8ec6-40ff-9417-04e959fb335c-attachment.json' type='application/json' size='67'/>
+                        <attachment title='Response' source='b8f34e01-72f7-4459-9498-984b644f654f-attachment.json' type='application/json' size='2248'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

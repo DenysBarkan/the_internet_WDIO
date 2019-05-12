@@ -1,0 +1,163 @@
+{
+  "uid" : "4aac796535e0fa4e",
+  "name" : "When I click the first download",
+  "fullName" : "Given: File Download test on File Download Page.When I click the first download",
+  "historyId" : "d9f8b3d0a8512871acf242e5b3d8b4c0",
+  "time" : {
+    "start" : 1557687638918,
+    "stop" : 1557687639217,
+    "duration" : 299
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/f62b1c7e-3308-476d-8c57-086bdd0e16c8/element",
+      "time" : {
+        "start" : 1557687638921,
+        "stop" : 1557687638981,
+        "duration" : 60
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1c3013efca39d82",
+        "name" : "Request",
+        "source" : "1c3013efca39d82.json",
+        "type" : "application/json",
+        "size" : 70
+      }, {
+        "uid" : "7597656de8ad596a",
+        "name" : "Response",
+        "source" : "7597656de8ad596a.json",
+        "type" : "application/json",
+        "size" : 221
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/f62b1c7e-3308-476d-8c57-086bdd0e16c8/element/1/text",
+      "time" : {
+        "start" : 1557687638987,
+        "stop" : 1557687639026,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d0232a6e3230a865",
+        "name" : "Response",
+        "source" : "d0232a6e3230a865.json",
+        "type" : "application/json",
+        "size" : 203
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/f62b1c7e-3308-476d-8c57-086bdd0e16c8/element",
+      "time" : {
+        "start" : 1557687639028,
+        "stop" : 1557687639066,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3dc5d75eca9bea83",
+        "name" : "Request",
+        "source" : "3dc5d75eca9bea83.json",
+        "type" : "application/json",
+        "size" : 70
+      }, {
+        "uid" : "edeb81bede192a63",
+        "name" : "Response",
+        "source" : "edeb81bede192a63.json",
+        "type" : "application/json",
+        "size" : 222
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/f62b1c7e-3308-476d-8c57-086bdd0e16c8/element/1/click",
+      "time" : {
+        "start" : 1557687639073,
+        "stop" : 1557687639209,
+        "duration" : 136
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a51db4023262ac35",
+        "name" : "Response",
+        "source" : "a51db4023262ac35.json",
+        "type" : "application/json",
+        "size" : 195
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Given: File Download test on File Download Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Given: File Download test on File Download Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I click the first download"
+  }, {
+    "name" : "package",
+    "value" : "Given: File Download test on File Download Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4aac796535e0fa4e.json",
+  "parameterValues" : [ "chrome" ]
+}

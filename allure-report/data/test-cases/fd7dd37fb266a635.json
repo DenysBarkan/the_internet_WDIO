@@ -1,0 +1,211 @@
+{
+  "uid" : "fd7dd37fb266a635",
+  "name" : "When I unclick the second checkbox, Then I verify both are unchecked.",
+  "fullName" : "Given: as a user, I should be able to check and uncheck the check boxes:.When I unclick the second checkbox, Then I verify both are unchecked.",
+  "historyId" : "f32e3ccd01c321c960b6f8b12bb105f6",
+  "time" : {
+    "start" : 1557687639962,
+    "stop" : 1557687640163,
+    "duration" : 201
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements",
+      "time" : {
+        "start" : 1557687639963,
+        "stop" : 1557687639986,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e633cd690d4ebf76",
+        "name" : "Request",
+        "source" : "e633cd690d4ebf76.json",
+        "type" : "application/json",
+        "size" : 71
+      }, {
+        "uid" : "64956310844a71ce",
+        "name" : "Response",
+        "source" : "64956310844a71ce.json",
+        "type" : "application/json",
+        "size" : 294
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/2/click",
+      "time" : {
+        "start" : 1557687639999,
+        "stop" : 1557687640070,
+        "duration" : 71
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4a396a9d30f6f15",
+        "name" : "Response",
+        "source" : "4a396a9d30f6f15.json",
+        "type" : "application/json",
+        "size" : 196
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements",
+      "time" : {
+        "start" : 1557687640073,
+        "stop" : 1557687640092,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a10a9bd191a62fac",
+        "name" : "Request",
+        "source" : "a10a9bd191a62fac.json",
+        "type" : "application/json",
+        "size" : 71
+      }, {
+        "uid" : "d1b399afe195fb71",
+        "name" : "Response",
+        "source" : "d1b399afe195fb71.json",
+        "type" : "application/json",
+        "size" : 294
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/1/selected",
+      "time" : {
+        "start" : 1557687640100,
+        "stop" : 1557687640116,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "94906c9d52d48f4c",
+        "name" : "Response",
+        "source" : "94906c9d52d48f4c.json",
+        "type" : "application/json",
+        "size" : 196
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements",
+      "time" : {
+        "start" : 1557687640118,
+        "stop" : 1557687640141,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "54b11405d12f8ba6",
+        "name" : "Request",
+        "source" : "54b11405d12f8ba6.json",
+        "type" : "application/json",
+        "size" : 71
+      }, {
+        "uid" : "9ab71a66a16a7608",
+        "name" : "Response",
+        "source" : "9ab71a66a16a7608.json",
+        "type" : "application/json",
+        "size" : 293
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/2/selected",
+      "time" : {
+        "start" : 1557687640144,
+        "stop" : 1557687640162,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "297b56dee12f60b6",
+        "name" : "Response",
+        "source" : "297b56dee12f60b6.json",
+        "type" : "application/json",
+        "size" : 197
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Given: as a user, I should be able to check and uncheck the check boxes:"
+  }, {
+    "name" : "testClass",
+    "value" : "Given: as a user, I should be able to check and uncheck the check boxes:"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I unclick the second checkbox, Then I verify both are unchecked."
+  }, {
+    "name" : "package",
+    "value" : "Given: as a user, I should be able to check and uncheck the check boxes:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fd7dd37fb266a635.json",
+  "parameterValues" : [ "chrome" ]
+}

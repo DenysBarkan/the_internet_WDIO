@@ -1,0 +1,163 @@
+{
+  "uid" : "dc47f7a61bfba757",
+  "name" : "When the page loads, Then verify the second checkbox is checked and not the first",
+  "fullName" : "Given: as a user, I should be able to check and uncheck the check boxes:.When the page loads, Then verify the second checkbox is checked and not the first",
+  "historyId" : "3a9f018fdb90256cdb32d98d20d0f9b8",
+  "time" : {
+    "start" : 1557687639098,
+    "stop" : 1557687639247,
+    "duration" : 149
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements",
+      "time" : {
+        "start" : 1557687639103,
+        "stop" : 1557687639134,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f7e86ce060952b58",
+        "name" : "Request",
+        "source" : "f7e86ce060952b58.json",
+        "type" : "application/json",
+        "size" : 71
+      }, {
+        "uid" : "b7403caed299bc77",
+        "name" : "Response",
+        "source" : "b7403caed299bc77.json",
+        "type" : "application/json",
+        "size" : 294
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/1/selected",
+      "time" : {
+        "start" : 1557687639142,
+        "stop" : 1557687639169,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "66edfc92444096fa",
+        "name" : "Response",
+        "source" : "66edfc92444096fa.json",
+        "type" : "application/json",
+        "size" : 197
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements",
+      "time" : {
+        "start" : 1557687639172,
+        "stop" : 1557687639196,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a797419bd95258bd",
+        "name" : "Request",
+        "source" : "a797419bd95258bd.json",
+        "type" : "application/json",
+        "size" : 71
+      }, {
+        "uid" : "c3a12e94764d289a",
+        "name" : "Response",
+        "source" : "c3a12e94764d289a.json",
+        "type" : "application/json",
+        "size" : 294
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/2/selected",
+      "time" : {
+        "start" : 1557687639211,
+        "stop" : 1557687639247,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "31ed51d36657173",
+        "name" : "Response",
+        "source" : "31ed51d36657173.json",
+        "type" : "application/json",
+        "size" : 195
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Given: as a user, I should be able to check and uncheck the check boxes:"
+  }, {
+    "name" : "testClass",
+    "value" : "Given: as a user, I should be able to check and uncheck the check boxes:"
+  }, {
+    "name" : "testMethod",
+    "value" : "When the page loads, Then verify the second checkbox is checked and not the first"
+  }, {
+    "name" : "package",
+    "value" : "Given: as a user, I should be able to check and uncheck the check boxes:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dc47f7a61bfba757.json",
+  "parameterValues" : [ "chrome" ]
+}

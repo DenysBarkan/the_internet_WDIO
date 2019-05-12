@@ -1,0 +1,277 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "dynamic controls and if/else test",
+    "children" : [ {
+      "name" : "\"before all\" hook",
+      "uid" : "1ef3b1a0383e9601",
+      "parentUid" : "7a79e07208330798405a4fa23e6572f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557687637515,
+        "stop" : 1557687638588,
+        "duration" : 1073
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test remove",
+      "uid" : "7e44d6ba6da8dded",
+      "parentUid" : "7a79e07208330798405a4fa23e6572f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557687638588,
+        "stop" : 1557687643913,
+        "duration" : 5325
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "7a79e07208330798405a4fa23e6572f7"
+  }, {
+    "name" : "webdriver.io page",
+    "children" : [ {
+      "name" : "should have the right title - the fancy generator way",
+      "uid" : "482b62b6bc8962fa",
+      "parentUid" : "601e7f3c0a9c957fa7f229ca6a567c98",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557687637522,
+        "stop" : 1557687643079,
+        "duration" : 5557
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "601e7f3c0a9c957fa7f229ca6a567c98"
+  }, {
+    "name" : "Given: File Download test on File Download Page",
+    "children" : [ {
+      "name" : "\"before all\" hook",
+      "uid" : "cb92d0ccf87d706a",
+      "parentUid" : "7fe91747319eb13b09785aed0741ba04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557687637779,
+        "stop" : 1557687638917,
+        "duration" : 1138
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "When I click the first download",
+      "uid" : "4aac796535e0fa4e",
+      "parentUid" : "7fe91747319eb13b09785aed0741ba04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557687638918,
+        "stop" : 1557687639217,
+        "duration" : 299
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then I verify that it downloaded to the system",
+      "uid" : "3ecbad921ada8759",
+      "parentUid" : "7fe91747319eb13b09785aed0741ba04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557687639218,
+        "stop" : 1557687642226,
+        "duration" : 3008
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "7fe91747319eb13b09785aed0741ba04"
+  }, {
+    "name" : "Given: as a user, I should be able to check and uncheck the check boxes:",
+    "children" : [ {
+      "name" : "\"before all\" hook",
+      "uid" : "204a3852e556be50",
+      "parentUid" : "ac1686a8bd4747bc7211278c9f4a5749",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557687637799,
+        "stop" : 1557687639098,
+        "duration" : 1299
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "When the page loads, Then verify the second checkbox is checked and not the first",
+      "uid" : "dc47f7a61bfba757",
+      "parentUid" : "ac1686a8bd4747bc7211278c9f4a5749",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557687639098,
+        "stop" : 1557687639247,
+        "duration" : 149
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "When I click first checkbox, and uncheck the second, Then I verify its checked and the other is not.",
+      "uid" : "bb400086b3b2dab8",
+      "parentUid" : "ac1686a8bd4747bc7211278c9f4a5749",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557687639248,
+        "stop" : 1557687639665,
+        "duration" : 417
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "When I click second checkbox, and uncheck the first, Then I verify its checked and the other is not.",
+      "uid" : "711b194b03bb55d8",
+      "parentUid" : "ac1686a8bd4747bc7211278c9f4a5749",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557687639666,
+        "stop" : 1557687639961,
+        "duration" : 295
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "When I unclick the second checkbox, Then I verify both are unchecked.",
+      "uid" : "fd7dd37fb266a635",
+      "parentUid" : "ac1686a8bd4747bc7211278c9f4a5749",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557687639962,
+        "stop" : 1557687640163,
+        "duration" : 201
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "When I click both checkboxes, Then I verify both boxes are checked.",
+      "uid" : "e9698a45259ff128",
+      "parentUid" : "ac1686a8bd4747bc7211278c9f4a5749",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557687640163,
+        "stop" : 1557687640425,
+        "duration" : 262
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "ac1686a8bd4747bc7211278c9f4a5749"
+  }, {
+    "name" : "Given: login test on the Form Authentication Page",
+    "children" : [ {
+      "name" : "Data driven login test",
+      "uid" : "bae9650e9d41f317",
+      "parentUid" : "826f88e43f32fb73b3676645a741e368",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557687637836,
+        "stop" : 1557687641735,
+        "duration" : 3899
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "826f88e43f32fb73b3676645a741e368"
+  }, {
+    "name" : "Given on the Hovers Page",
+    "children" : [ {
+      "name" : "\"before all\" hook",
+      "uid" : "412dfbcd413808c4",
+      "parentUid" : "22e336b917b3e14ca5413d31250e7de7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557687645537,
+        "stop" : 1557687646406,
+        "duration" : 869
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "When I hover over the images, Then a User name and View Profile link should be displayed",
+      "uid" : "9d4dc8e9a54aab1d",
+      "parentUid" : "22e336b917b3e14ca5413d31250e7de7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557687646407,
+        "stop" : 1557687646875,
+        "duration" : 468
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "22e336b917b3e14ca5413d31250e7de7"
+  }, {
+    "name" : "Smoke Test: Given as a user, I want to ensure the base page loads.",
+    "children" : [ {
+      "name" : "\"before all\" hook",
+      "uid" : "f55e6a32e18ecb0c",
+      "parentUid" : "e4f6526ac8d2fea3ae2637c7fb83458f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557687645943,
+        "stop" : 1557687646828,
+        "duration" : 885
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Then validate header shows",
+      "uid" : "36f97782a26980ba",
+      "parentUid" : "e4f6526ac8d2fea3ae2637c7fb83458f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557687646829,
+        "stop" : 1557687646851,
+        "duration" : 22
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then validate sub header shows",
+      "uid" : "52f24d01debb9bae",
+      "parentUid" : "e4f6526ac8d2fea3ae2637c7fb83458f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557687646851,
+        "stop" : 1557687646895,
+        "duration" : 44
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then validate all links are displayed",
+      "uid" : "b259dc64af1779d",
+      "parentUid" : "e4f6526ac8d2fea3ae2637c7fb83458f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557687646895,
+        "stop" : 1557687646947,
+        "duration" : 52
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "e4f6526ac8d2fea3ae2637c7fb83458f"
+  }, {
+    "name" : "Given: sorted table test",
+    "children" : [ {
+      "name" : "When clicking on the last name header, Then the table should sort",
+      "uid" : "55d94a82e2f3cc20",
+      "parentUid" : "059111844d67f03d9adb87956106a8ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557687646537,
+        "stop" : 1557687647669,
+        "duration" : 1132
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "059111844d67f03d9adb87956106a8ba"
+  } ]
+}

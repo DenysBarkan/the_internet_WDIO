@@ -1,0 +1,94 @@
+{
+  "uid" : "b259dc64af1779d",
+  "name" : "Then validate all links are displayed",
+  "fullName" : "Smoke Test: Given as a user, I want to ensure the base page loads..Then validate all links are displayed",
+  "historyId" : "12b533ae30b6e0affa55d32cca3c363e",
+  "time" : {
+    "start" : 1557687646895,
+    "stop" : 1557687646947,
+    "duration" : 52
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/a2dab8b1-25e2-4ba7-a69f-31b740b237c8/elements",
+      "time" : {
+        "start" : 1557687646895,
+        "stop" : 1557687646910,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c04047d7542a79a3",
+        "name" : "Request",
+        "source" : "c04047d7542a79a3.json",
+        "type" : "application/json",
+        "size" : 67
+      }, {
+        "uid" : "f82e9d546c2855d3",
+        "name" : "Response",
+        "source" : "f82e9d546c2855d3.json",
+        "type" : "application/json",
+        "size" : 2248
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "Smoke Test: Given as a user, I want to ensure the base page loads."
+  }, {
+    "name" : "testClass",
+    "value" : "Smoke Test: Given as a user, I want to ensure the base page loads."
+  }, {
+    "name" : "testMethod",
+    "value" : "Then validate all links are displayed"
+  }, {
+    "name" : "package",
+    "value" : "Smoke Test: Given as a user, I want to ensure the base page loads."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b259dc64af1779d.json",
+  "parameterValues" : [ "chrome" ]
+}

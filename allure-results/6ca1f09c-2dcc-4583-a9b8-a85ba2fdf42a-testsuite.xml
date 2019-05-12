@@ -1,0 +1,433 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1557687637799' stop='1557687640426'>
+    <name>Given: as a user, I should be able to check and uncheck the check boxes:</name>
+    <title>Given: as a user, I should be able to check and uncheck the check boxes:</title>
+    <test-cases>
+        <test-case start='1557687637799' status='passed' stop='1557687639098'>
+            <name>"before all" hook</name>
+            <title>"before all" hook</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1557687637824' status='passed' stop='1557687638945'>
+                    <name>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/url</name>
+                    <title>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/url</title>
+                    <attachments>
+                        <attachment title='Request' source='4c1805e1-b967-4d57-9718-48fdd0babf15-attachment.json' type='application/json' size='62'/>
+                        <attachment title='Response' source='b2927265-012a-467a-8ff7-b8f068898568-attachment.json' type='application/json' size='195'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557687638952' status='passed' stop='1557687638987'>
+                    <name>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element</name>
+                    <title>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1b290674-8f28-4424-903d-abda5f7da235-attachment.json' type='application/json' size='52'/>
+                        <attachment title='Response' source='66d07a6c-a216-4b46-aba4-60a754169002-attachment.json' type='application/json' size='222'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557687638996' status='passed' stop='1557687639042'>
+                    <name>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements</name>
+                    <title>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='ebb74d13-d132-45c0-8745-2160f85c674b-attachment.json' type='application/json' size='52'/>
+                        <attachment title='Response' source='85383d2c-1e4c-4d86-a957-722c0dfae24b-attachment.json' type='application/json' size='245'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557687639042' status='passed' stop='1557687639075'>
+                    <name>GET /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/0/displayed</name>
+                    <title>GET /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/0/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='5613fa23-53dd-49ff-b299-10fb1bee8e32-attachment.json' type='application/json' size='196'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557687639079' status='passed' stop='1557687639093'>
+                    <name>GET /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/url</name>
+                    <title>GET /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/url</title>
+                    <attachments>
+                        <attachment title='Response' source='5be7a17f-41c1-4df5-9bf5-6bb0e535fd15-attachment.json' type='application/json' size='239'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1557687639098' status='passed' stop='1557687639247'>
+            <name>When the page loads, Then verify the second checkbox is checked and not the first</name>
+            <title>When the page loads, Then verify the second checkbox is checked and not the first</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ch/Documents/node/internet/test/specs/checkBoxes.spec.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1557687639103' status='passed' stop='1557687639134'>
+                    <name>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements</name>
+                    <title>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='3934c2fa-08d7-4f64-8b28-7b9c8d20c9d6-attachment.json' type='application/json' size='71'/>
+                        <attachment title='Response' source='d8ec54f7-4622-4d4f-a456-f0edcd4c7b38-attachment.json' type='application/json' size='294'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557687639142' status='passed' stop='1557687639169'>
+                    <name>GET /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/1/selected</name>
+                    <title>GET /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/1/selected</title>
+                    <attachments>
+                        <attachment title='Response' source='3f4d0a7e-b010-4e6b-a3aa-557cc95fa8b3-attachment.json' type='application/json' size='197'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557687639172' status='passed' stop='1557687639196'>
+                    <name>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements</name>
+                    <title>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='7f52264e-60ea-4cbb-ae93-d7b1d8057f83-attachment.json' type='application/json' size='71'/>
+                        <attachment title='Response' source='884ca918-9c7d-4ef6-9021-e8d821d17e1e-attachment.json' type='application/json' size='294'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557687639211' status='passed' stop='1557687639247'>
+                    <name>GET /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/2/selected</name>
+                    <title>GET /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/2/selected</title>
+                    <attachments>
+                        <attachment title='Response' source='e5855d03-3954-4fd3-9d06-a1254ccaea28-attachment.json' type='application/json' size='195'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1557687639248' status='passed' stop='1557687639665'>
+            <name>When I click first checkbox, and uncheck the second, Then I verify its checked and the other is not.</name>
+            <title>When I click first checkbox, and uncheck the second, Then I verify its checked and the other is not.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ch/Documents/node/internet/test/specs/checkBoxes.spec.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1557687639248' status='passed' stop='1557687639263'>
+                    <name>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements</name>
+                    <title>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='596a6f32-5ea9-4051-933c-41a6e9370a1d-attachment.json' type='application/json' size='71'/>
+                        <attachment title='Response' source='18a7e051-aa02-4a6e-8cb6-28eab08bd669-attachment.json' type='application/json' size='293'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557687639271' status='passed' stop='1557687639369'>
+                    <name>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/1/click</name>
+                    <title>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/1/click</title>
+                    <attachments>
+                        <attachment title='Response' source='3c7bc211-9efe-4a64-86ed-eaf22f1b9860-attachment.json' type='application/json' size='195'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557687639372' status='passed' stop='1557687639395'>
+                    <name>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements</name>
+                    <title>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='c7ac2b07-fe32-4ba8-bbfc-dff48526e815-attachment.json' type='application/json' size='71'/>
+                        <attachment title='Response' source='89307a2b-f261-4d6f-b8a1-0d83ed67aff9-attachment.json' type='application/json' size='294'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557687639401' status='passed' stop='1557687639488'>
+                    <name>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/2/click</name>
+                    <title>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/2/click</title>
+                    <attachments>
+                        <attachment title='Response' source='9a1cb9c7-5110-4dcd-a1aa-375b181ec4d5-attachment.json' type='application/json' size='196'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557687639488' status='passed' stop='1557687639510'>
+                    <name>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements</name>
+                    <title>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='194c2b20-4618-4fd9-aa7a-6a898b8b0434-attachment.json' type='application/json' size='71'/>
+                        <attachment title='Response' source='37467680-d592-4672-9cfa-b5e436cf29bf-attachment.json' type='application/json' size='293'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557687639596' status='passed' stop='1557687639597'>
+                    <name>GET /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/1/selected</name>
+                    <title>GET /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/1/selected</title>
+                    <attachments>
+                        <attachment title='Response' source='94f3988a-600c-4784-b530-42e002e70d9c-attachment.json' type='application/json' size='196'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557687639597' status='passed' stop='1557687639610'>
+                    <name>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements</name>
+                    <title>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='e03fe6f5-2355-465e-864f-0e14fa5fb04a-attachment.json' type='application/json' size='71'/>
+                        <attachment title='Response' source='325d8c13-9357-45ec-9f6f-5ecea50eeb7d-attachment.json' type='application/json' size='294'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557687639614' status='passed' stop='1557687639664'>
+                    <name>GET /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/2/selected</name>
+                    <title>GET /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/2/selected</title>
+                    <attachments>
+                        <attachment title='Response' source='f40a3903-e409-4891-a5a6-db611d3fa59b-attachment.json' type='application/json' size='197'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1557687639666' status='passed' stop='1557687639961'>
+            <name>When I click second checkbox, and uncheck the first, Then I verify its checked and the other is not.</name>
+            <title>When I click second checkbox, and uncheck the first, Then I verify its checked and the other is not.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ch/Documents/node/internet/test/specs/checkBoxes.spec.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1557687639666' status='passed' stop='1557687639680'>
+                    <name>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements</name>
+                    <title>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='9aed362d-e85e-4584-b922-ab4c4eae078b-attachment.json' type='application/json' size='71'/>
+                        <attachment title='Response' source='be36e524-8d85-44cc-98c7-f8bb74d99366-attachment.json' type='application/json' size='294'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557687639694' status='passed' stop='1557687639747'>
+                    <name>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/2/click</name>
+                    <title>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/2/click</title>
+                    <attachments>
+                        <attachment title='Response' source='2faceac7-883c-44a3-a7e0-0594a32e3934-attachment.json' type='application/json' size='195'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557687639749' status='passed' stop='1557687639770'>
+                    <name>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements</name>
+                    <title>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='5f79a40e-f5c9-4548-88be-c3218a048bf3-attachment.json' type='application/json' size='71'/>
+                        <attachment title='Response' source='37615c54-ae34-44fc-a787-01c792052d8b-attachment.json' type='application/json' size='294'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557687639776' status='passed' stop='1557687639819'>
+                    <name>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/1/click</name>
+                    <title>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/1/click</title>
+                    <attachments>
+                        <attachment title='Response' source='702ea86c-9c41-4a85-ab03-5af3991abe99-attachment.json' type='application/json' size='196'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557687639822' status='passed' stop='1557687639841'>
+                    <name>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements</name>
+                    <title>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='39ace99e-faac-4324-b5f6-812cab720f74-attachment.json' type='application/json' size='71'/>
+                        <attachment title='Response' source='65f5345a-f21b-4ae5-9eb6-ba2dd1c14473-attachment.json' type='application/json' size='294'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557687639844' status='passed' stop='1557687639895'>
+                    <name>GET /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/1/selected</name>
+                    <title>GET /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/1/selected</title>
+                    <attachments>
+                        <attachment title='Response' source='0665c605-267c-4d64-b859-db09015495ff-attachment.json' type='application/json' size='197'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557687639903' status='passed' stop='1557687639932'>
+                    <name>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements</name>
+                    <title>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='f57e6374-c47f-4fce-9ae4-86740616426c-attachment.json' type='application/json' size='71'/>
+                        <attachment title='Response' source='075d2a32-87e7-4c91-8a80-d4f212f0d9d0-attachment.json' type='application/json' size='294'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557687639938' status='passed' stop='1557687639961'>
+                    <name>GET /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/2/selected</name>
+                    <title>GET /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/2/selected</title>
+                    <attachments>
+                        <attachment title='Response' source='4d2db3ab-9ba0-417e-8f2b-4b0b504c6d1d-attachment.json' type='application/json' size='196'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1557687639962' status='passed' stop='1557687640163'>
+            <name>When I unclick the second checkbox, Then I verify both are unchecked.</name>
+            <title>When I unclick the second checkbox, Then I verify both are unchecked.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ch/Documents/node/internet/test/specs/checkBoxes.spec.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1557687639963' status='passed' stop='1557687639986'>
+                    <name>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements</name>
+                    <title>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='9fab8ca7-b10f-4d29-af35-f4e6b3a4b4b8-attachment.json' type='application/json' size='71'/>
+                        <attachment title='Response' source='aa768332-bbc0-4b94-8987-164542477a71-attachment.json' type='application/json' size='294'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557687639999' status='passed' stop='1557687640070'>
+                    <name>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/2/click</name>
+                    <title>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/2/click</title>
+                    <attachments>
+                        <attachment title='Response' source='af80a061-e2f8-4071-87d1-9be0e85b5b17-attachment.json' type='application/json' size='196'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557687640073' status='passed' stop='1557687640092'>
+                    <name>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements</name>
+                    <title>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='2cf3fc61-94cf-4913-b3ae-ebcf60eec384-attachment.json' type='application/json' size='71'/>
+                        <attachment title='Response' source='8d796fca-f74d-4d86-b679-c272f72614d7-attachment.json' type='application/json' size='294'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557687640100' status='passed' stop='1557687640116'>
+                    <name>GET /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/1/selected</name>
+                    <title>GET /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/1/selected</title>
+                    <attachments>
+                        <attachment title='Response' source='66ef0082-46c6-463d-84d5-e7b2a063db2e-attachment.json' type='application/json' size='196'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557687640118' status='passed' stop='1557687640141'>
+                    <name>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements</name>
+                    <title>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='f1faddd7-c4db-41f0-96f1-d36661dbe22e-attachment.json' type='application/json' size='71'/>
+                        <attachment title='Response' source='5881e096-4b1f-4cd5-8326-c67643553ed7-attachment.json' type='application/json' size='293'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557687640144' status='passed' stop='1557687640162'>
+                    <name>GET /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/2/selected</name>
+                    <title>GET /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/2/selected</title>
+                    <attachments>
+                        <attachment title='Response' source='e66ca902-fcaf-4f35-816e-22943f126514-attachment.json' type='application/json' size='197'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1557687640163' status='passed' stop='1557687640425'>
+            <name>When I click both checkboxes, Then I verify both boxes are checked.</name>
+            <title>When I click both checkboxes, Then I verify both boxes are checked.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/ch/Documents/node/internet/test/specs/checkBoxes.spec.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1557687640185' status='passed' stop='1557687640218'>
+                    <name>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements</name>
+                    <title>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='f4ba98c6-19a9-4fe8-a190-0234bb39d454-attachment.json' type='application/json' size='71'/>
+                        <attachment title='Response' source='091cd060-4be3-41dc-9ec1-e8588ab58e3c-attachment.json' type='application/json' size='294'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557687640224' status='passed' stop='1557687640267'>
+                    <name>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/1/click</name>
+                    <title>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/1/click</title>
+                    <attachments>
+                        <attachment title='Response' source='8d37dc8b-5528-434a-9f6e-acee761d6a45-attachment.json' type='application/json' size='196'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557687640276' status='passed' stop='1557687640296'>
+                    <name>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements</name>
+                    <title>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='a735a427-7e28-4839-bf7d-1590511d0d2c-attachment.json' type='application/json' size='71'/>
+                        <attachment title='Response' source='5239e885-4a53-471e-8eb2-83222fef26c7-attachment.json' type='application/json' size='292'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557687640301' status='passed' stop='1557687640343'>
+                    <name>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/2/click</name>
+                    <title>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/2/click</title>
+                    <attachments>
+                        <attachment title='Response' source='c5ee0d79-b626-4256-85f7-0aa69253904f-attachment.json' type='application/json' size='196'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557687640343' status='passed' stop='1557687640362'>
+                    <name>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements</name>
+                    <title>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='0d8d47b4-85fa-45de-bfcb-04b13e8955b1-attachment.json' type='application/json' size='71'/>
+                        <attachment title='Response' source='ea8f46e8-7ad3-4ef8-b945-190ad913b3e3-attachment.json' type='application/json' size='293'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557687640366' status='passed' stop='1557687640383'>
+                    <name>GET /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/1/selected</name>
+                    <title>GET /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/1/selected</title>
+                    <attachments>
+                        <attachment title='Response' source='8311c25b-0154-4593-ac50-14819ea32193-attachment.json' type='application/json' size='196'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557687640386' status='passed' stop='1557687640405'>
+                    <name>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements</name>
+                    <title>POST /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='4bc24629-fe68-4950-b614-307bf9459b09-attachment.json' type='application/json' size='71'/>
+                        <attachment title='Response' source='43d945e3-cd05-42f0-a987-aff55f8e3603-attachment.json' type='application/json' size='294'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1557687640409' status='passed' stop='1557687640424'>
+                    <name>GET /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/2/selected</name>
+                    <title>GET /wd/hub/session/7f789b95-5b98-4e37-88fe-d6d7f9c3a8f4/element/2/selected</title>
+                    <attachments>
+                        <attachment title='Response' source='d18e72c4-39b4-4239-8a23-8265dc323bc4-attachment.json' type='application/json' size='196'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
